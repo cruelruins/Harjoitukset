@@ -1,6 +1,6 @@
 # Harjoitukset
 <h5>Tämä sisältää opiskeluprojektien harjoituksia vuosilta 2025–2026.</h5>
-<h3>Harjoituksissa on käytetty muun muassa seuraavia ohjelmointikieliä ja teknologioita:</h3>
+<h5>Harjoituksissa on käytetty muun muassa seuraavia ohjelmointikieliä ja teknologioita:</h5>
 HTML – verkkosivujen rakenne
 CSS – ulkoasu ja tyylittely
 JavaScript – interaktiivisuus ja toiminnallisuudet
