@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Kuvagalleria</title>
+    <style>
+        .thumb { width: 150px; cursor: pointer; margin: 10px; border: 2px solid #ccc; }
+        .thumb:hover { border-color: blue; }
+    </style>
+</head>
+<body>
+
+    <img src="https://static.partyking.org/fit-in/1300x0/products/original/gigantisk-gummianka-1.jpg" class="thumb" onclick="avaaKuva('https://static.partyking.org/fit-in/1300x0/products/original/gigantisk-gummianka-1.jpg')">
+
+    <script>
+        function avaaKuva(url) {
+            window.open(url, "KuvaIkkuna", "width=850,height=650,resizable=yes");
+        }
+    </script>
+
+</body>
+</html>

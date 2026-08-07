@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivunvaihto kuvilla</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #444;
+            font-weight: 600;
+            width: 100px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+            position: relative;
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+        }
+
+        /* Kuvan tyyli (aluksi piilotettu) */
+        .nav-link img {
+            display: none;
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        /* Hover-efekti */
+        .nav-link:hover {
+            background-color: #007bff;
+            color: white;
+            border-color: #0056b3;
+            transform: translateY(-3px);
+        }
+
+        /* Piilota teksti ja näytä kuva hoverissa */
+        .nav-link:hover .text {
+            display: none;
+        }
+
+        .nav-link:hover img {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="https://www.mtvuutiset.fi/" class="nav-link">
+            <span class="text">MTV3</span>
+            <img src="https://upload.wikimedia.org/wikipedia/fi/thumb/7/7b/MTV3_logo_1975%E2%80%931992.svg/960px-MTV3_logo_1975%E2%80%931992.svg.png" alt="Koti">
+        </a>
+
+        <a href="https://www.hs.fi/" class="nav-link">
+            <span class="text">HS</span>
+            <img src="https://cdn.brandfetch.io/idSNdQLSWl/w/320/h/320/theme/dark/icon.png?c=1bxid64Mup7aczewSAYMX&t=1775952940506" alt="Kuvat">
+        </a>
+
+        <a href="https://sasky.fi/" class="nav-link">
+            <span class="text">Sasky</span>
+            <img src="https://alueviesti.fi/files/2024/01/sasky-logo-2024-758x402.png" alt="Asetukset">
+        </a>
+
+        <a href="https://yle.fi/" class="nav-link">
+            <span class="text">Yle</span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Ylen_logo.svg/1280px-Ylen_logo.svg.png" alt="Yhteys">
+        </a>
+    </nav>
+
+</body>
+</html>
+

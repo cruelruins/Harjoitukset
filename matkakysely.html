@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <title>Matkakysely</title>
+</head>
+<body>
+    <script>
+        const matka = prompt("Kuinka monta kilometriä matka on?");
+
+        if (matka === null || matka === "") {
+            alert("Et syöttänyt mitään!");
+        } else {
+            const km = parseFloat(matka);
+
+            if (km < 5) {
+                alert("Matka on lyhyt, voit vaikka kävellä!");
+            } else if (km >= 5 && km < 50) {
+                alert("Sopiva matka pyöräilyyn tai autolle.");
+            } else if (km >= 50) {
+                alert("Nyt on jo pitkä matka, muista eväät!");
+            } else {
+                alert("Syötä kelvollinen numero.");
+            }
+        }
+    </script>
+</body>
+</html>
