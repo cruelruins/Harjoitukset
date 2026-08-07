@@ -1,0 +1,114 @@
+<html>
+<head>
+    <title>HTML Linkit</title>
+    <style>
+        /* Asetetaan Palatino koko sivulle */
+        body {
+            background-color: #f9f999;
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        /* Valikon tyylit */
+        .valikko {
+            background-color: #ffffff;
+            border: 2px solid #333;
+            padding: 15px;
+            width: 150px;
+            flex-shrink: 0; /* Estää valikkoa kutistumasta */
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+        }
+
+        .valikko p, .valikko b {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Sisältöalueen tyylit */
+        .container {
+            display: flex;
+            flex: 1;
+            gap: 20px;
+        }
+
+        .sarake {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            background-color: #ffffff;
+            border: 2px solid #333;
+            padding: 15px;
+            box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+            text-align: center;
+            align-items: center;
+        }
+
+        .otsikko {
+            font-weight: bold;
+            border-bottom: 2px solid #333;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            font-size: 1.2em;
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+            margin-bottom: 5px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Valikko vasemmalla -->
+    <div class="valikko">
+        <strong>VALIKKO</strong>
+        <p><a href="etusivu.html">Etusivu</a></p>
+        <p><a href="kuvagalleria.html">Kuvat</a></p>
+        <b>Linkit</b>
+        <p><a href="palautesivu.html">Palaute</a></p>
+    </div>
+
+    <!-- Sisältö sarakkeissa -->
+    <div class="container">
+        <!-- Sarake 1 -->
+        <div class="sarake">
+            <span class="otsikko">Uutiset</span>
+            <a href="https://yle.fi">Yle</a>
+            <a href="https://mtv.fi">Mtv</a>
+            <a href="https://iltalehti.fi">Iltalehti</a>
+        </div>
+
+        <!-- Sarake 2 -->
+        <div class="sarake">
+            <span class="otsikko">Youtube ja videot</span>
+            <a href="https://www.youtube.com/watch?v=rTnLLGg5EJw">Youtube video #1</a>
+            <a href="https://www.youtube.com/watch?v=4IAMIv_v9Ko">Youtube video #2</a>
+            <a href="https://youtu.be/kl3R7K9pupM?is=cTUs0xsw6ljTTMDJ">Youtube video #3</a>
+        </div>
+
+        <!Sarake 3>
+        <div class="sarake">
+            <span class="otsikko">Nettisivut</span>
+            <a href="https://gamebanana.com/members/1829230">Gamebanana</a>
+            <a href="https://www.deviantart.com/cruelruins">Deviantart</a>
+            <a href="https://spacehey.com/profile?id=2701594">SpaceHey</a>
+        </div>
+    </div>
+
+<div style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%);">
+        <img border="0"
+             src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e0b57496-6d5e-4afa-af8b-7a53a4cc7762/dlrhmye-871fbe23-049d-4e18-83e4-1bade97a535e.png/v1/fit/w_700,h_700,q_70,strp/ceo_of_laitela_by_cruelruins_dlrhmye-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzAwIiwicGF0aCI6Ii9mL2UwYjU3NDk2LTZkNWUtNGFmYS1hZjhiLTdhNTNhNGNjNzc2Mi9kbHJobXllLTg3MWZiZTIzLTA0OWQtNGUxOC04M2U0LTFiYWRlOTdhNTM1ZS5wbmciLCJ3aWR0aCI6Ijw9NzAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.nms4FmCNhM6PqS3YV__hGXkw1G4OlCVJASAWDr0GT2o"
+             width="100" height="100" alt="Laitela">
+</div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>CSS-harjoitukset</title>
+
+<style>
+    body {
+        background-color: #f9f999;
+        font-family: Verdana, sans-serif;
+        text-align: center; /* Keskittää tekstit oletuksena */
+    }
+    
+    /* Taulukon tyylit ja keskitys */
+    table {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-collapse: collapse;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    
+    td {
+        padding: 20px;
+        text-align: center; /* Keskittää sisällön solun sisällä */
+        vertical-align: top;
+        border: 1px solid #ccc;
+    }
+
+    #otsikko {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    
+    .red { color: #FF3300; font-weight: bold; }
+    .green { color: #006600; font-weight: bold; }
+    .blue { color: #003399; font-weight: bold; }
+    .purple { color: #6600CC; font-weight: bold; }
+    
+    .hobby-image {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border: 3px solid #fff;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    /* Sivun lopun tervetuloa-teksti CSS-määritettynä */
+    #lopputervehdys {
+        color: #003399;
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-transform: uppercase; /* Tekee tekstistä suuraakkoset */
+    }
+</style>
+
+</head>
+<body>
+
+    <div id="otsikko">Salamyhkäinen kotisivu</div>
+    
+    <div class="blue">Hei! Olen Miro ja opiskelen IKOL SASKY.</div>
+
+    <table>
+        <tr>
+            <th colspan="4" style="font-size: 20px; padding: 15px;">Harrastukset</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="purple">Ultimate Zone Builder</div>
+                <img src="https://srb2mb-externaldata.nyc3.cdn.digitaloceanspaces.com/data/resource_icons/6/6126.jpg?1707443307" class="hobby-image">
+            </td>
+            <td>
+                <div class="blue">SLADE3</div>
+                <img src="https://avatars.githubusercontent.com/u/2484576?v=4" class="hobby-image">
+            </td>
+            <td>
+                <div class="red">Kdenlive</div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Kdenlive-logo.svg/1280px-Kdenlive-logo.svg.png" class="hobby-image">
+            </td>
+            <td>
+                <div class="green">FL Studio</div>
+                <img src="https://www.image-line.com/static/assets/stripe-fl-studio-150x150-png.d717447.webp" class="hobby-image">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Tervetuloa-teksti sivun lopussa -->
+    <div id="lopputervehdys">Tervetuloa!</div>
+
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e0b57496-6d5e-4afa-af8b-7a53a4cc7762/dkrg3ln-d8e9392c-f73a-431c-818e-74a964e94ecd.jpg/v1/fit/w_644,h_483,q_70,strp/absolute_x_treme_by_cruelruins_dkrg3ln-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDgzIiwicGF0aCI6Ii9mL2UwYjU3NDk2LTZkNWUtNGFmYS1hZjhiLTdhNTNhNGNjNzc2Mi9ka3JnM2xuLWQ4ZTkzOTJjLWY3M2EtNDMxYy04MThlLTc0YTk2NGU5NGVjZC5qcGciLCJ3aWR0aCI6Ijw9NjQ0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.SpjmzE_R9oajxz4Onprae2q51hC8tQW3RkmXcA02U8s"width="200" height="200">
+
+
+</body>
+</html>
